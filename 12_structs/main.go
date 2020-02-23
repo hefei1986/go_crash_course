@@ -23,7 +23,7 @@ func (p *Person)hasBirthday() {
 	p.age++	
 }
 
-func (p *Person)getMarried(spouseLastName string) bool {
+func (p *Person)getMarried(spouseLastName string) {
 	if p.gender == "male" {
 		return 
 	} else {
